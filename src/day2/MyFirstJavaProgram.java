@@ -9,7 +9,15 @@ public class MyFirstJavaProgram {
 		
 		// START HERE
 	
-		
+		Robot Echo = new Robot();		
+Echo.setPenWidth(100);
+		Echo.setSpeed(200);
+		Echo.penDown();
+		for(int i = 0; i < 4; i++) {
+			Echo.move(250);
+		Echo.turn(90);
+		}
 		
 	}
+	
 }

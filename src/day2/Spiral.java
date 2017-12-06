@@ -20,6 +20,11 @@ public class Spiral {
 			// 2. Turn the robot 1/7 of 360 degrees to the right
 		
 			// 8. Set the pen width to i
-			
+			Robot echo = new Robot();
+	echo.penDown();
+	
+	
+	
+	
 	}
 }
